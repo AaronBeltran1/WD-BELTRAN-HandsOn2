@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: url('https://wallpapers.com/images/featured/one-piece-c0pujiakubq5rwas.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+.container {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+    color: #f39c12;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #f39c12;
+    text-shadow: 2px 2px 4px #000;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: slideDown 1s ease-out;
+}
+
+header .btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header .btn:hover, header .btn.active {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.card1, .card2 .card, .card3, .card4, .card5 .card {
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.card1 {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ca685b;
+}
+
+.card1 .card-img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card1 .title {
+    font-size: 2.5em;
+    margin: 0;
+    color: #e74c3c;
+}
+
+.card1 .title span {
+    color: #fff;
+}
+
+.card1 .description {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .card1 .title {
+        font-size: 2em;
+    }
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: slideDown 1s ease-out;
+}
+
+header .btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header .btn:hover, header .btn.active {
+    background-color: #0c7e16;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.card2 {
+    position: relative;
+    margin: 20px;
+}
+
+.card2 .card {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff15;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s;
+}
+
+.card2 .card:hover {
+    transform: scale(1.1);
+}
+
+.card2 .card .title {
+    font-size: 1.2em;
+    color: #0c7e16;
+    margin-top: 10px;
+}
+
+.card2 .card .description {
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 5px;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: slideDown 1s ease-out;
+}
+
+header .btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header .btn:hover, header .btn.active {
+    background-color: #8B0000;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.card3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #F00;
+}
+
+.card3 .left {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.card3 .container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.card3 .designer {
+    font-size: 1.2em;
+    color: #F00;
+    margin-bottom: 10px;
+}
+
+.card3 .name {
+    font-size: 2.5em;
+    color: #8B0000;
+    margin: 0;
+}
+
+.card3 .name span {
+    color: #fff;
+}
+
+.card3 .message {
+    font-size: 1.1em;
+    color: #ccc;
+    margin: 20px 0;
+}
+
+.card3 .content {
+    font-size: 1em;
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.card3 .Shanks {
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.card3 .github {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #8B0000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card3 .github:hover {
+    background-color: #F00;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: slideDown 1s ease-out;
+}
+
+header .btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header .btn:hover, header .btn.active {
+    background-color: #eac117;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.card4 {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #FFD700;
+    text-align: left;
+}
+
+.card4 .hero-subtitle {
+    font-size: 1.5em;
+    color: #FFD700;
+    margin: 10px 0;
+}
+
+.card4 .hero-abilities {
+    list-style-type: square;
+    margin: 10px 0 20px 20px;
+    padding: 0;
+}
+
+.card4 .hero-abilities li {
+    font-size: 1em;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.card4 .hero-background {
+    font-size: 1em;
+    color: #ccc;
+    margin-top: 10px;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: slideDown 1s ease-out;
+}
+
+header .btn {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header .btn:hover, header .btn.active {
+    background-color: #4B0082;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #9400D3;
+}
+
+.card5 .card {
+    width: 300px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px #9400D3;
+}
+
+.card5 .card .title {
+    font-size: 1.5em;
+    color: #9400D3;
+    margin-bottom: 10px;
+}
+
+.card5 .card .description {
+    font-size: 1em;
+    color: #ccc;
+    margin: 10px 0;
+}
